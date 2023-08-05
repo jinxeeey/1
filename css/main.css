@@ -29,6 +29,11 @@
   1. Global
 -------------------------------------------------------------------------------*/
 /* 1.1 General */
+.header__logo img {
+  width: 100px; /* Adjust this value to your desired width */
+  height: auto; /* This ensures the aspect ratio is maintained */
+}
+
 .container {
   max-width: calc(100% - 200px);
   margin: auto;
